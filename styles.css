@@ -3301,3 +3301,30 @@ body .footer-cta .cta-text {
     object-position: 50% 45%;
     transform: scale(1.05)
 }
+
+/* Mobile: keep "Happy Minds Learn Better" off the photo */
+@media (max-width: 1000px) {
+    .empower-photo {
+        display: flex;
+        flex-direction: column;
+        min-height: 0
+    }
+
+    .empower-photo::before {
+        display: none
+    }
+
+    .empower-photo .handwritten {
+        position: static;
+        order: -1;
+        padding: 0 22px 18px;
+        font-size: 30px;
+        transform: none;
+        text-shadow: none
+    }
+
+    .empower-photo img {
+        position: static;
+        height: 220px
+    }
+}
