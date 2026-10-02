@@ -18,7 +18,7 @@ body {
     margin: 0;
     color: var(--navy);
     font-family: 'DM Sans', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     background: #fff
 }
 
@@ -106,7 +106,7 @@ input:focus-visible {
 }
 
 .brand {
-    font-size: 34px;
+    font-size: 37px;
     line-height: 1;
     font-weight: 800;
     letter-spacing: -1.8px;
@@ -119,7 +119,7 @@ input:focus-visible {
 
 .brand small {
     display: block;
-    font-size: 11px;
+    font-size: 13px;
     letter-spacing: 1.5px;
     text-align: center;
     margin-top: 8px;
@@ -133,12 +133,12 @@ input:focus-visible {
     padding-left: 23px;
     border-left: 1px solid #b6c3d0;
     white-space: nowrap;
-    font-size: 14px
+    font-size: 16px
 }
 
 .partner small {
     display: block;
-    font-size: 11px;
+    font-size: 13px;
     margin-top: 2px
 }
 
@@ -162,7 +162,7 @@ nav {
     align-items: center;
     gap: 20px;
     margin-left: auto;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 600;
     white-space: nowrap
 }
@@ -206,7 +206,7 @@ nav button:hover,
 }
 
 .login {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 600;
     padding: 11px 22px;
     border: 1.5px solid var(--orange);
@@ -227,7 +227,7 @@ nav button:hover,
     padding: 15px 24px;
     border-radius: 30px;
     font-weight: 700;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 1.4;
     transition: transform .2s, box-shadow .2s;
     white-space: normal;
@@ -256,7 +256,7 @@ nav button:hover,
 }
 
 .nav-cta {
-    font-size: 11px;
+    font-size: 13px;
     padding: 12px 17px;
     gap: 9px;
     white-space: nowrap
@@ -304,7 +304,7 @@ nav button:hover,
 }
 
 .eyebrow {
-    font-size: 11px;
+    font-size: 13px;
     letter-spacing: .9px;
     font-weight: 800;
     border: 1px solid #b9dfed;
@@ -324,7 +324,7 @@ nav button:hover,
 }
 
 h1 {
-    font-size: clamp(34px, 3.1vw, 47px);
+    font-size: clamp(36px, 3.3vw, 51px);
     line-height: 1.18;
     letter-spacing: -1.9px;
     font-weight: 800;
@@ -344,7 +344,7 @@ h1 em {
 }
 
 .hero-content>p {
-    font-size: 15px;
+    font-size: 17px;
     line-height: 1.65;
     max-width: 540px
 }
@@ -361,7 +361,7 @@ h1 em {
     display: flex;
     align-items: center;
     gap: 8px;
-    font-size: 10px;
+    font-size: 12px;
     line-height: 1.5;
     background: #ffffffbc;
     border-radius: 10px;
@@ -380,7 +380,7 @@ h1 em {
 }
 
 .hero-buttons .btn {
-    font-size: 11px;
+    font-size: 13px;
     padding: 14px 17px;
     gap: 8px
 }
@@ -390,12 +390,12 @@ h1 em {
     align-items: center;
     gap: 10px;
     margin-top: 20px;
-    font-size: 11px;
+    font-size: 13px;
     color: #587080
 }
 
 .tiny-avatars {
-    font-size: 10px;
+    font-size: 12px;
     border-radius: 20px;
     background: #dfebf1;
     padding: 4px 8px;
@@ -405,7 +405,7 @@ h1 em {
 
 .handwritten {
     font-family: Caveat, cursive;
-    font-size: 29px;
+    font-size: 31px;
     line-height: 1.05;
     font-weight: 600
 }
@@ -416,7 +416,7 @@ h1 em {
     bottom: 15%;
     z-index: 1;
     color: #fff;
-    font-size: 46px;
+    font-size: 50px;
     transform: rotate(-9deg);
     text-shadow: 0 2px 10px #0005
 }
@@ -440,7 +440,7 @@ h1 em {
     display: flex;
     align-items: center;
     gap: 8px;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700
 }
 
@@ -460,7 +460,7 @@ h1 em {
 }
 
 .section-kicker {
-    font-size: 10px;
+    font-size: 12px;
     letter-spacing: 1.8px;
     font-weight: 800;
     color: #5c7d95;
@@ -469,14 +469,14 @@ h1 em {
 }
 
 h2 {
-    font-size: 27px;
+    font-size: 29px;
     letter-spacing: -.8px;
     font-weight: 800;
     line-height: 1.3
 }
 
 .section-description {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.7;
     margin-top: 9px;
     max-width: 550px
@@ -513,19 +513,19 @@ h2 {
 }
 
 h3 {
-    font-size: 17px;
+    font-size: 19px;
     line-height: 1.5;
     font-weight: 800
 }
 
 .why-grid h3 {
-    font-size: 13px;
+    font-size: 15px;
     line-height: 1.6;
     letter-spacing: -.2px
 }
 
 .why-grid p {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.8;
     margin-top: 10px;
     color: var(--muted)
@@ -538,13 +538,13 @@ h3 {
 }
 
 .about-panel h4 {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700;
     margin-top: 5px
 }
 
 .about-panel p {
-    font-size: 13px;
+    font-size: 15px;
     line-height: 1.75;
     margin-top: 14px
 }
@@ -559,7 +559,7 @@ h3 {
 
 .partnership-mark .handwritten {
     transform: rotate(-8deg);
-    font-size: 28px
+    font-size: 30px
 }
 
 .about-panel .campus {
@@ -639,7 +639,7 @@ h3 {
     left: 4%;
     z-index: 2;
     margin: 0;
-    font-size: 32px
+    font-size: 35px
 }
 
 @media(max-width:1350px) {
@@ -648,7 +648,7 @@ h3 {
     }
 
     #journey .launchpad .equation {
-        font-size: 11.5px;
+        font-size: 13.5px;
         gap: 5px
     }
 }
@@ -660,7 +660,7 @@ h3 {
     }
 
     #journey .launchpad .launch-note {
-        font-size: 26px
+        font-size: 28px
     }
 
     #journey .launchpad .industry-card {
@@ -668,7 +668,7 @@ h3 {
     }
 
     #journey .launchpad .equation {
-        font-size: 11px;
+        font-size: 13px;
         gap: 4px;
         justify-content: center
     }
@@ -742,14 +742,14 @@ h3 {
     border-radius: 0 30px 30px 0;
     background: linear-gradient(90deg, #ff6a2b, #f0561c);
     color: #fff;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700;
     letter-spacing: .6px
 }
 
 #journey .launch-copy h2 {
     margin-top: 18px;
-    font-size: 34px;
+    font-size: 37px;
     line-height: 1.2;
     letter-spacing: -.8px;
     color: #fff
@@ -761,7 +761,7 @@ h3 {
 
 #journey .launch-tags {
     margin-top: 14px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700
 }
 
@@ -774,7 +774,7 @@ h3 {
 #journey .launch-copy p {
     max-width: 440px;
     margin: 14px 0 22px;
-    font-size: 13.5px;
+    font-size: 15.5px;
     line-height: 1.7;
     color: #e3ebf3
 }
@@ -786,7 +786,7 @@ h3 {
     justify-self: start;
     margin-top: 40px;
     color: #fff;
-    font-size: 34px;
+    font-size: 37px;
     line-height: 1.05;
     transform: rotate(-10deg);
     text-shadow: 0 2px 10px #0006
@@ -813,7 +813,7 @@ h3 {
 }
 
 #journey .industry-card h3 {
-    font-size: 19px;
+    font-size: 21px;
     font-weight: 800;
     color: #0f2942
 }
@@ -830,7 +830,7 @@ h3 {
     gap: 14px;
     margin: 0;
     padding: 6px 0;
-    font-size: 14px;
+    font-size: 16px;
     color: #1f4a7a;
     border: 0
 }
@@ -860,7 +860,7 @@ h3 {
     padding: 12px 10px;
     border-radius: 12px;
     background: linear-gradient(90deg, #fff3ea, #fff8f3);
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700;
     color: #0f2942
 }
@@ -933,11 +933,11 @@ h3 {
     }
 
     #journey .launch-copy h2 {
-        font-size: 28px
+        font-size: 30px
     }
 
     #journey .launch-note {
-        font-size: 28px
+        font-size: 30px
     }
 
     #journey .industry-card {
@@ -945,7 +945,7 @@ h3 {
     }
 
     #journey .industry-card li {
-        font-size: 13px
+        font-size: 15px
     }
 }
 
@@ -972,11 +972,11 @@ h3 {
     }
 
     #journey .launch-copy h2 {
-        font-size: 26px
+        font-size: 28px
     }
 
     #journey .launch-tags {
-        font-size: 12px
+        font-size: 14px
     }
 
     #journey .launch-tags b {
@@ -984,7 +984,7 @@ h3 {
     }
 
     #journey .orange-badge {
-        font-size: 10px
+        font-size: 12px
     }
 
     #journey .industry-card {
@@ -992,12 +992,12 @@ h3 {
     }
 
     #journey .industry-card li {
-        font-size: 12.5px;
+        font-size: 14.5px;
         gap: 12px
     }
 
     #journey .equation {
-        font-size: 12px
+        font-size: 14px
     }
 }
 
@@ -1014,14 +1014,14 @@ h3 {
 }
 
 .section-heading p {
-    font-size: 13px;
+    font-size: 15px;
     margin-top: 8px;
     color: var(--muted)
 }
 
 .text-link {
     color: var(--orange);
-    font-size: 12px;
+    font-size: 14px;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -1079,14 +1079,14 @@ h3 {
 }
 
 .program-card h3 {
-    font-size: 17px;
+    font-size: 19px;
     margin-top: 14px;
     max-width: 270px;
     line-height: 1.5
 }
 
 .program-card p {
-    font-size: 12px;
+    font-size: 14px;
     color: var(--muted);
     margin: 9px 0 18px
 }
@@ -1098,7 +1098,7 @@ h3 {
 }
 
 .program-pill {
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 700;
     color: #fff;
     background: var(--card-color);
@@ -1107,7 +1107,7 @@ h3 {
 }
 
 .program-bottom>span:last-child {
-    font-size: 11px;
+    font-size: 13px;
     color: var(--muted)
 }
 
@@ -1141,18 +1141,18 @@ h3 {
     display: block;
     font-family: Manrope, sans-serif;
     color: var(--orange);
-    font-size: 26px;
+    font-size: 28px;
     font-weight: 800
 }
 
 .stats p {
-    font-size: 10px;
+    font-size: 12px;
     line-height: 1.5;
     margin-top: 3px
 }
 
 .stats .placement {
-    font-size: 15px;
+    font-size: 17px;
     line-height: 1.4;
     color: var(--navy)
 }
@@ -1173,7 +1173,7 @@ h3 {
 .value-content li {
     position: relative;
     padding-left: 22px;
-    font-size: 11px;
+    font-size: 13px;
     line-height: 1.6;
     margin-bottom: 6px
 }
@@ -1194,7 +1194,7 @@ h3 {
 .value-content .handwritten {
     padding-left: 20px;
     border-left: 1px solid #c6e1ed;
-    font-size: 25px;
+    font-size: 27px;
     transform: rotate(-7deg);
     text-align: center
 }
@@ -1245,13 +1245,13 @@ h3 {
 
 .stars {
     color: #f69343;
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: 2px
 }
 
 .testimonial blockquote {
     margin: 11px 0 18px;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 1.8;
     color: #435f75
 }
@@ -1269,24 +1269,24 @@ h3 {
     place-items: center;
     border-radius: 50%;
     background: #dbe7ed;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700
 }
 
 .student strong {
-    font-size: 12px;
+    font-size: 14px;
     display: block
 }
 
 .student small {
-    font-size: 10px;
+    font-size: 12px;
     color: var(--muted);
     display: block;
     margin-top: 3px
 }
 
 .sample-note {
-    font-size: 10px;
+    font-size: 12px;
     color: #6d8190;
     margin-top: 10px
 }
@@ -1310,11 +1310,11 @@ h3 {
 }
 
 .cta-inner h2 {
-    font-size: 23px
+    font-size: 25px
 }
 
 .cta-inner p {
-    font-size: 12px;
+    font-size: 14px;
     margin-top: 6px;
     color: #e2ebf3
 }
@@ -1345,11 +1345,11 @@ footer {
 }
 
 .footer-main .brand {
-    font-size: 28px
+    font-size: 30px
 }
 
 .footer-main .brand small {
-    font-size: 9px
+    font-size: 11px
 }
 
 .footer-partner {
@@ -1358,23 +1358,23 @@ footer {
     gap: 12px;
     padding-left: 22px;
     border-left: 1px solid #718797;
-    font-size: 11px
+    font-size: 13px
 }
 
 .footer-partner>span {
-    font-size: 10px;
+    font-size: 12px;
     max-width: 75px
 }
 
 .footer-partner small {
     display: block;
-    font-size: 9px;
+    font-size: 11px;
     margin-top: 3px
 }
 
 .footer-main>a:not(.brand),
 .footer-main>button {
-    font-size: 10px;
+    font-size: 12px;
     display: flex;
     align-items: center;
     gap: 10px
@@ -1389,7 +1389,7 @@ footer {
     border-top: 1px solid #496277;
     display: flex;
     justify-content: space-between;
-    font-size: 10px;
+    font-size: 12px;
     color: #c2d0dd;
     padding-block: 17px
 }
@@ -1445,7 +1445,7 @@ dialog::backdrop {
 
 .modal-inner p,
 .modal-inner li {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.8;
     color: var(--muted)
 }
@@ -1461,7 +1461,7 @@ dialog::backdrop {
 
 .modal-inner label {
     display: block;
-    font-size: 13px;
+    font-size: 15px;
     margin: 16px 0 6px;
     font-weight: 700
 }
@@ -1480,7 +1480,7 @@ dialog::backdrop {
     text-align: left;
     padding: 13px 4px;
     border-bottom: 1px solid var(--line);
-    font-size: 14px
+    font-size: 16px
 }
 
 .search-result:hover {
@@ -1501,7 +1501,7 @@ dialog::backdrop {
     transition: .2s;
     z-index: 100;
     max-width: 90%;
-    font-size: 13px
+    font-size: 15px
 }
 
 #toast.visible {
@@ -1523,16 +1523,16 @@ dialog::backdrop {
 
     nav {
         gap: 12px;
-        font-size: 10px
+        font-size: 12px
     }
 
     .partner {
         padding-left: 15px;
-        font-size: 12px
+        font-size: 14px
     }
 
     .brand {
-        font-size: 29px
+        font-size: 31px
     }
 
     .nav-actions {
@@ -1541,7 +1541,7 @@ dialog::backdrop {
 
     .nav-cta {
         padding: 11px 12px;
-        font-size: 10px
+        font-size: 12px
     }
 
     .site-container {
@@ -1557,7 +1557,7 @@ dialog::backdrop {
     }
 
     h1 {
-        font-size: 38px
+        font-size: 41px
     }
 
     .hero-features {
@@ -1590,7 +1590,7 @@ dialog::backdrop {
     }
 
     .launch-copy h2 {
-        font-size: 25px
+        font-size: 27px
     }
 
     .industry-card {
@@ -1611,11 +1611,11 @@ dialog::backdrop {
 
     .cta-buttons .btn {
         padding: 12px 16px;
-        font-size: 11px
+        font-size: 13px
     }
 
     .value-content .handwritten {
-        font-size: 22px
+        font-size: 24px
     }
 }
 
@@ -1629,7 +1629,7 @@ dialog::backdrop {
         background: white;
         padding: 20px 26px;
         box-shadow: 0 10px 15px #10294015;
-        font-size: 14px;
+        font-size: 16px;
         align-items: stretch
     }
 
@@ -1718,7 +1718,7 @@ dialog::backdrop {
     }
 
     .launch-copy h2 {
-        font-size: 25px
+        font-size: 27px
     }
 
     .program-grid {
@@ -1730,11 +1730,11 @@ dialog::backdrop {
     }
 
     .program-card h3 {
-        font-size: 15px
+        font-size: 17px
     }
 
     .program-bottom>span:last-child {
-        font-size: 10px
+        font-size: 12px
     }
 
     .value-section {
@@ -1769,23 +1769,23 @@ dialog::backdrop {
     }
 
     .brand {
-        font-size: 27px
+        font-size: 29px
     }
 
     .brand small {
-        font-size: 8px;
+        font-size: 10px;
         letter-spacing: 1px;
         margin-top: 5px
     }
 
     .partner {
-        font-size: 10px;
+        font-size: 12px;
         padding-left: 12px;
         gap: 7px
     }
 
     .partner small {
-        font-size: 8px
+        font-size: 10px
     }
 
     .seal {
@@ -1846,7 +1846,7 @@ dialog::backdrop {
 
     .hero-note {
         display: block;
-        font-size: 34px;
+        font-size: 37px;
         bottom: 30px;
         right: 22px
     }
@@ -1854,17 +1854,17 @@ dialog::backdrop {
     .photo-label {
         top: 25px;
         right: 16px;
-        font-size: 10px
+        font-size: 12px
     }
 
     .eyebrow {
-        font-size: 8px;
+        font-size: 10px;
         letter-spacing: .5px;
         padding: 6px 9px
     }
 
     h1 {
-        font-size: 33px;
+        font-size: 36px;
         letter-spacing: -1.4px;
         line-height: 1.2;
         margin: 18px 0 14px
@@ -1875,7 +1875,7 @@ dialog::backdrop {
     }
 
     .hero-content>p {
-        font-size: 13px;
+        font-size: 15px;
         max-width: none;
         line-height: 1.7
     }
@@ -1887,7 +1887,7 @@ dialog::backdrop {
     }
 
     .hero-features>div {
-        font-size: 10px;
+        font-size: 12px;
         padding: 11px
     }
 
@@ -1897,12 +1897,12 @@ dialog::backdrop {
     }
 
     .hero-buttons .btn {
-        font-size: 11px;
+        font-size: 13px;
         min-height: 46px
     }
 
     .hero-trust {
-        font-size: 9px;
+        font-size: 11px;
         justify-content: center;
         margin-top: 16px
     }
@@ -1918,17 +1918,17 @@ dialog::backdrop {
     }
 
     .section-kicker {
-        font-size: 8px;
+        font-size: 10px;
         letter-spacing: 1.4px
     }
 
     h2 {
-        font-size: 23px;
+        font-size: 25px;
         letter-spacing: -.6px
     }
 
     .section-description {
-        font-size: 12px
+        font-size: 14px
     }
 
     .why-grid {
@@ -1942,11 +1942,11 @@ dialog::backdrop {
     }
 
     .why-grid h3 {
-        font-size: 11px
+        font-size: 13px
     }
 
     .why-grid p {
-        font-size: 11px;
+        font-size: 13px;
         line-height: 1.7
     }
 
@@ -1955,7 +1955,7 @@ dialog::backdrop {
     }
 
     .about-panel p {
-        font-size: 12px
+        font-size: 14px
     }
 
     .partnership-mark {
@@ -1963,7 +1963,7 @@ dialog::backdrop {
     }
 
     .partnership-mark .handwritten {
-        font-size: 26px
+        font-size: 28px
     }
 
     .about-panel .campus {
@@ -1977,11 +1977,11 @@ dialog::backdrop {
     }
 
     .orange-badge {
-        font-size: 8px
+        font-size: 10px
     }
 
     .launch-copy h2 {
-        font-size: 26px
+        font-size: 28px
     }
 
     .launch-copy {
@@ -1989,7 +1989,7 @@ dialog::backdrop {
     }
 
     .launch-tags {
-        font-size: 9px
+        font-size: 11px
     }
 
     .launch-tags b {
@@ -1997,11 +1997,11 @@ dialog::backdrop {
     }
 
     .launch-copy p {
-        font-size: 12px
+        font-size: 14px
     }
 
     .launch-copy .btn {
-        font-size: 11px
+        font-size: 13px
     }
 
     .industry-card {
@@ -2009,11 +2009,11 @@ dialog::backdrop {
     }
 
     .industry-card h3 {
-        font-size: 14px
+        font-size: 16px
     }
 
     .industry-card li {
-        font-size: 11px;
+        font-size: 13px;
         margin-bottom: 12px;
         gap: 9px
     }
@@ -2023,7 +2023,7 @@ dialog::backdrop {
     }
 
     .equation {
-        font-size: 7px
+        font-size: 9px
     }
 
     .programs-section {
@@ -2038,12 +2038,12 @@ dialog::backdrop {
     }
 
     .section-heading p {
-        font-size: 12px;
+        font-size: 14px;
         line-height: 1.7
     }
 
     .text-link {
-        font-size: 11px
+        font-size: 13px
     }
 
     .program-grid {
@@ -2056,12 +2056,12 @@ dialog::backdrop {
     }
 
     .program-card h3 {
-        font-size: 17px;
+        font-size: 19px;
         max-width: 100%
     }
 
     .program-card p {
-        font-size: 12px
+        font-size: 14px
     }
 
     .program-icon {
@@ -2070,7 +2070,7 @@ dialog::backdrop {
     }
 
     .program-bottom>span:last-child {
-        font-size: 11px
+        font-size: 13px
     }
 
     .highlights,
@@ -2083,7 +2083,7 @@ dialog::backdrop {
     }
 
     .stats p {
-        font-size: 11px
+        font-size: 13px
     }
 
     .value-content {
@@ -2091,11 +2091,11 @@ dialog::backdrop {
     }
 
     .value-content li {
-        font-size: 10px
+        font-size: 12px
     }
 
     .value-content .handwritten {
-        font-size: 20px;
+        font-size: 22px;
         padding-left: 10px
     }
 
@@ -2109,7 +2109,7 @@ dialog::backdrop {
     }
 
     .stories-section h2 {
-        font-size: 22px
+        font-size: 24px
     }
 
     .testimonial {
@@ -2118,7 +2118,7 @@ dialog::backdrop {
     }
 
     .sample-note {
-        font-size: 9px;
+        font-size: 11px;
         line-height: 1.6
     }
 
@@ -2127,11 +2127,11 @@ dialog::backdrop {
     }
 
     .cta-inner h2 {
-        font-size: 24px
+        font-size: 26px
     }
 
     .cta-inner p {
-        font-size: 12px;
+        font-size: 14px;
         line-height: 1.7
     }
 
@@ -2144,7 +2144,7 @@ dialog::backdrop {
         flex: 1;
         padding: 12px 9px;
         min-width: 0;
-        font-size: 10px;
+        font-size: 12px;
         gap: 5px
     }
 
@@ -2155,7 +2155,7 @@ dialog::backdrop {
     }
 
     .footer-main .brand {
-        font-size: 28px
+        font-size: 30px
     }
 
     .footer-partner {
@@ -2170,11 +2170,11 @@ dialog::backdrop {
     .footer-main>a:not(.brand),
     .footer-main>button {
         width: 100%;
-        font-size: 12px
+        font-size: 14px
     }
 
     .footer-bottom {
-        font-size: 9px;
+        font-size: 11px;
         gap: 15px;
         flex-wrap: wrap
     }
@@ -2184,7 +2184,7 @@ dialog::backdrop {
     }
 
     .modal-inner h2 {
-        font-size: 23px
+        font-size: 25px
     }
 }
 
@@ -2221,7 +2221,7 @@ dialog::backdrop {
     top: 26px;
     z-index: 1;
     margin: 0;
-    font-size: 28px;
+    font-size: 30px;
     color: var(--navy);
     transform: rotate(-8deg)
 }
@@ -2241,7 +2241,7 @@ dialog::backdrop {
 
     .about-panel .partnership-mark .handwritten {
         left: 22px;
-        font-size: 24px
+        font-size: 26px
     }
 }
 
@@ -2268,7 +2268,7 @@ dialog::backdrop {
 
     .about-panel .partnership-mark .handwritten {
         left: 20px;
-        font-size: 22px
+        font-size: 24px
     }
 }
 
@@ -2302,7 +2302,7 @@ body .footer-cta .cta-icon svg {
 }
 
 body .footer-cta .cta-text h2 {
-    font-size: 26px;
+    font-size: 28px;
     font-weight: 700;
     letter-spacing: -.4px;
     color: #fff
@@ -2310,7 +2310,7 @@ body .footer-cta .cta-text h2 {
 
 body .footer-cta .cta-text p {
     margin-top: 6px;
-    font-size: 15px;
+    font-size: 17px;
     color: #dbe6f1
 }
 
@@ -2326,7 +2326,7 @@ body .footer-cta .cta-buttons .btn {
     min-width: 190px;
     min-height: 52px;
     padding: 14px 28px;
-    font-size: 15px;
+    font-size: 17px;
     gap: 10px
 }
 
@@ -2356,12 +2356,12 @@ body .footer-cta .light-outline:hover {
 }
 
 .site-footer .brand {
-    font-size: 32px;
+    font-size: 35px;
     color: #fff
 }
 
 .site-footer .brand small {
-    font-size: 11px;
+    font-size: 13px;
     color: #dbe6f1
 }
 
@@ -2373,7 +2373,7 @@ body .footer-cta .light-outline:hover {
 }
 
 .site-footer .footer-collab {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     color: #e6eef6;
     white-space: nowrap
@@ -2385,7 +2385,7 @@ body .footer-cta .light-outline:hover {
     gap: 12px;
     padding: 0;
     border: 0;
-    font-size: 15px
+    font-size: 17px
 }
 
 .site-footer .footer-partner strong {
@@ -2397,7 +2397,7 @@ body .footer-cta .light-outline:hover {
 .site-footer .footer-partner small {
     display: block;
     margin-top: 3px;
-    font-size: 12px;
+    font-size: 14px;
     color: #dbe6f1
 }
 
@@ -2432,7 +2432,7 @@ body .footer-cta .light-outline:hover {
     align-items: center;
     gap: 12px;
     min-height: 44px;
-    font-size: 14px;
+    font-size: 16px;
     color: #fff;
     white-space: nowrap
 }
@@ -2455,7 +2455,7 @@ body .footer-cta .light-outline:hover {
     gap: 10px;
     padding-block: 14px;
     border-top: 0;
-    font-size: 12.5px;
+    font-size: 14.5px;
     color: #d3deea
 }
 
@@ -2490,7 +2490,7 @@ body .footer-cta .light-outline:hover {
     body .footer-cta .cta-buttons .btn {
         min-width: 0;
         padding: 12px 20px;
-        font-size: 14px
+        font-size: 16px
     }
 
     .site-footer .footer-contacts {
@@ -2516,11 +2516,11 @@ body .footer-cta .light-outline:hover {
 
 @media(max-width:640px) {
     body .footer-cta .cta-text h2 {
-        font-size: 22px
+        font-size: 24px
     }
 
     body .footer-cta .cta-text p {
-        font-size: 14px
+        font-size: 16px
     }
 
     body .footer-cta .cta-buttons {
@@ -2531,7 +2531,7 @@ body .footer-cta .light-outline:hover {
     body .footer-cta .cta-buttons .btn {
         flex: 1;
         padding: 12px 10px;
-        font-size: 13px
+        font-size: 15px
     }
 
     .site-footer .footer-divider {
@@ -2541,7 +2541,7 @@ body .footer-cta .light-outline:hover {
     .site-footer .footer-collab {
         width: 100%;
         margin-bottom: -8px;
-        font-size: 12px
+        font-size: 14px
     }
 
     .site-footer .footer-contacts {
@@ -2551,7 +2551,7 @@ body .footer-cta .light-outline:hover {
     }
 
     .site-footer .footer-bottom {
-        font-size: 12px
+        font-size: 14px
     }
 }
 
@@ -2561,7 +2561,7 @@ body .footer-cta .light-outline:hover {
 }
 
 #programs h2 {
-    font-size: 30px;
+    font-size: 32px;
     font-weight: 800;
     letter-spacing: -.6px;
     color: var(--navy)
@@ -2573,12 +2573,12 @@ body .footer-cta .light-outline:hover {
 
 #programs .section-heading p {
     margin-top: 6px;
-    font-size: 15px;
+    font-size: 17px;
     color: #1f3a5c
 }
 
 #programs .text-link {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     color: var(--orange);
     border-bottom: 1.5px solid #f8b89c
@@ -2628,7 +2628,7 @@ body .footer-cta .light-outline:hover {
     display: block;
     margin-top: 14px;
     font-family: Manrope, sans-serif;
-    font-size: 17px;
+    font-size: 19px;
     font-weight: 800;
     line-height: 1.35;
     color: var(--navy)
@@ -2637,7 +2637,7 @@ body .footer-cta .light-outline:hover {
 #programs .program-tags {
     display: block;
     margin: 10px 0 16px;
-    font-size: 12.5px;
+    font-size: 14.5px;
     line-height: 1.7;
     color: #3b5673
 }
@@ -2659,7 +2659,7 @@ body .footer-cta .light-outline:hover {
     margin-top: auto;
     padding: 6px 14px;
     border-radius: 999px;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700;
     color: var(--pill-fg);
     background: var(--pill-bg)
@@ -2673,7 +2673,7 @@ body .footer-cta .light-outline:hover {
 
 @media(max-width:1000px) {
     #programs h2 {
-        font-size: 26px
+        font-size: 28px
     }
 }
 
@@ -2688,11 +2688,11 @@ body .footer-cta .light-outline:hover {
     }
 
     #programs .program-title {
-        font-size: 15px
+        font-size: 17px
     }
 
     #programs h2 {
-        font-size: 22px
+        font-size: 24px
     }
 }
 
@@ -2728,7 +2728,7 @@ body .footer-cta .cta-text {
         background: #fff;
         padding: 20px 26px;
         box-shadow: 0 10px 15px #10294015;
-        font-size: 14px;
+        font-size: 16px;
         align-items: stretch
     }
 
@@ -2773,7 +2773,7 @@ body .footer-cta .cta-text {
 
 #stories .stories-title {
     margin-bottom: 18px;
-    font-size: 30px;
+    font-size: 32px;
     font-weight: 800;
     letter-spacing: -.6px;
     color: var(--navy)
@@ -2824,7 +2824,7 @@ body .footer-cta .cta-text {
     display: grid;
     place-items: center;
     font-family: Manrope, sans-serif;
-    font-size: 30px;
+    font-size: 32px;
     font-weight: 800;
     color: #2a5a8c
 }
@@ -2843,7 +2843,7 @@ body .footer-cta .cta-text {
 
 #stories .testimonial blockquote {
     margin: 0 0 12px;
-    font-size: 13.5px;
+    font-size: 15.5px;
     line-height: 1.6;
     color: #3b5673
 }
@@ -2851,7 +2851,7 @@ body .footer-cta .cta-text {
 #stories .t-name {
     display: block;
     font-family: Manrope, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 800;
     color: var(--navy)
 }
@@ -2859,7 +2859,7 @@ body .footer-cta .cta-text {
 #stories .t-meta {
     display: block;
     margin-top: 3px;
-    font-size: 12.5px;
+    font-size: 14.5px;
     color: #2a6fb5
 }
 
@@ -2905,7 +2905,7 @@ body .footer-cta .cta-text {
 
 #stories .sample-note {
     margin-top: 8px;
-    font-size: 11px;
+    font-size: 13px;
     color: #6d8190;
     text-align: center
 }
@@ -2918,7 +2918,7 @@ body .footer-cta .cta-text {
 
 @media(max-width:640px) {
     #stories .stories-title {
-        font-size: 22px
+        font-size: 24px
     }
 
     #stories .stories-slider {
@@ -3018,4 +3018,286 @@ body .footer-cta .cta-text {
     .partner img {
         height: 32px
     }
+}
+
+/* Our Support Helps Students */
+.support-section {
+    padding-block: 38px 10px;
+    display: grid;
+    gap: 22px
+}
+
+.support-card {
+    background: linear-gradient(180deg, #f4f8ff, #eef4fd);
+    border: 1px solid #e3ecf7;
+    border-radius: 22px;
+    padding: 34px 34px 28px
+}
+
+.support-title {
+    display: inline-block;
+    position: relative;
+    margin: 0 0 30px;
+    font-size: 36px;
+    font-weight: 800;
+    letter-spacing: -.8px;
+    color: #1b3a8a
+}
+
+.support-title::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    width: 92px;
+    height: 4px;
+    border-radius: 4px;
+    background: #f5b400
+}
+
+.support-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr)
+}
+
+.support-grid article {
+    padding: 4px 22px;
+    text-align: center;
+    border-left: 1px solid #d9e3ef
+}
+
+.support-grid article:first-child {
+    border-left: 0
+}
+
+.support-grid h3 {
+    margin: 16px 0 10px;
+    font-size: 18px;
+    line-height: 1.3;
+    font-weight: 700
+}
+
+.support-grid p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 16px;
+    line-height: 1.55
+}
+
+.support-icon,
+.pillar-icon {
+    display: inline-grid;
+    place-items: center;
+    border-radius: 50%
+}
+
+.support-icon {
+    width: 76px;
+    height: 76px
+}
+
+.support-icon svg {
+    width: 34px;
+    height: 34px
+}
+
+.support-icon.pink { background: #fde4ec; color: #d63c74 }
+.support-icon.yellow { background: #fff1c7; color: #c98a00 }
+.support-icon.green { background: #d9f4e6; color: #1f9a5b }
+.support-icon.purple { background: #ece3fb; color: #7544c8 }
+.support-icon.blue { background: #dfeafd; color: #2d64c8 }
+
+.support-pillars {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 14px 30px;
+    margin-top: 30px;
+    padding: 16px 24px;
+    border-radius: 18px;
+    background: #e3edfb;
+    font-weight: 700;
+    font-size: 18px
+}
+
+.support-pillars>span:not(.pillar-plus) {
+    display: inline-flex;
+    align-items: center;
+    gap: 14px
+}
+
+.pillar-icon {
+    width: 50px;
+    height: 50px;
+    color: #fff
+}
+
+.pillar-icon svg {
+    width: 26px;
+    height: 26px
+}
+
+.pillar-icon.blue { background: #2d64c8 }
+.pillar-icon.yellow { background: #f5b400 }
+.pillar-icon.green { background: #2f9e57 }
+
+.pillar-plus {
+    color: #1b3a8a;
+    font-size: 28px;
+    font-weight: 500
+}
+
+.empower-banner {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    align-items: stretch;
+    min-height: 240px;
+    border-radius: 22px;
+    overflow: hidden;
+    background: linear-gradient(120deg, #0d2350, #12317a);
+    color: #fff
+}
+
+.empower-text {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    padding: 36px 40px
+}
+
+.empower-icon {
+    flex-shrink: 0;
+    color: #f5b400
+}
+
+.empower-icon svg {
+    width: 64px;
+    height: 64px;
+    stroke-width: 1.6
+}
+
+.empower-text h2 {
+    margin: 0;
+    font-size: 38px;
+    line-height: 1.15;
+    letter-spacing: -.6px
+}
+
+.empower-text h2 span {
+    color: #f5b400
+}
+
+.empower-text p {
+    margin: 16px 0 0;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #dbe6f1
+}
+
+.empower-photo {
+    position: relative;
+    overflow: hidden
+}
+
+.empower-photo img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 35%
+}
+
+.empower-photo::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: linear-gradient(90deg, #0f2a62 0%, #0f2a6200 45%)
+}
+
+.empower-photo .handwritten {
+    position: absolute;
+    z-index: 2;
+    left: 4%;
+    top: 22%;
+    color: #fff;
+    font-size: 36px;
+    transform: rotate(-8deg);
+    text-shadow: 0 2px 10px #0008
+}
+
+@media (max-width: 1100px) {
+    .support-grid {
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 28px
+    }
+
+    .support-grid article:nth-child(4) {
+        border-left: 0
+    }
+}
+
+@media (max-width: 1000px) {
+    .empower-banner {
+        grid-template-columns: 1fr
+    }
+
+    .empower-photo {
+        min-height: 220px
+    }
+
+    .empower-photo::before {
+        background: linear-gradient(180deg, #0f2a62 0%, #0f2a6200 40%)
+    }
+}
+
+@media (max-width: 640px) {
+    .support-card {
+        padding: 26px 18px 22px
+    }
+
+    .support-title {
+        font-size: 28px
+    }
+
+    .support-grid {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 24px
+    }
+
+    .support-grid article {
+        padding: 4px 10px;
+        border-left: 0
+    }
+
+    .support-grid article:last-child {
+        grid-column: 1 / -1
+    }
+
+    .support-pillars {
+        flex-direction: column;
+        gap: 10px
+    }
+
+    .empower-text {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 28px 22px
+    }
+
+    .empower-text h2 {
+        font-size: 28px
+    }
+}
+
+/* Hero campus photo: zoom slightly to hide the photo's white frame */
+.hero-photo {
+    overflow: hidden
+}
+
+.hero-photo img {
+    object-position: 50% 45%;
+    transform: scale(1.05)
 }
